@@ -6,10 +6,9 @@
 #define AYIN_MUDUO_HTTP_PARSER_H
 #include "http_type.h"
 namespace http {
-class http_parser {
-private:
+    string get_substr(string* str,char de);
+    http_handler parse_http(string &str);
 
-};
 }
 
 

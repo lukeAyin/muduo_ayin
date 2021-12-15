@@ -48,6 +48,15 @@ method_type get_method_type(string str){
     method_error res;
     return res;
 }
-class http_handler
+class http_handler{
+public:
+    method_type method;
+    string URI;
+    http_handler(method_type m,string u)
+    : method(m),URI(u){
+
+    };
+};
+
 }
 #endif //AYIN_MUDUO_HTTP_TYPE_H
