@@ -1,0 +1,7 @@
+#ignore directory
+build/
+cmake-build-debug/
+.cache/
+.idea/
+*.a
+*.so
