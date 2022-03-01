@@ -1,11 +1,8 @@
 //
-// Created by ayin on 2021/12/14.
+// Created by 34649 on 2022/3/1.
 //
 
-#include "http_conn.h"
-http_conn::http_conn(EventLoop *loop, const InetAddress &listenAddr)
-    :loop_(loop),
-     server_(loop,listenAddr,"httpServer")
-{
+#include "include/http_conn.h"
+namespace http{
 
 }

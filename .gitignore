@@ -5,3 +5,7 @@ cmake-build-debug/
 .idea/
 *.a
 *.so
+cmake-build-release-wsl/
+lib/CMakeFiles/
+*.cmake
+
